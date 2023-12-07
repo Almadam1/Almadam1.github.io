@@ -1,0 +1,3 @@
+'Script'
+// Path: script.js
+
