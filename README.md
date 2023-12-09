@@ -20,4 +20,6 @@ Visit the live site here: [Ahmed Almadami's Portfolio](https://almadam1.github.i
 
 Your feedback and contributions are highly appreciated. Feel free to suggest improvements or collaborate.
 
+This website was inspired by Hannah Yan's portfolio
+
 Thank you for visiting my portfolio!
