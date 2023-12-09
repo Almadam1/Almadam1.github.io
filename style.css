@@ -1,4 +1,65 @@
-.royal-blue-icon {
-    color: #4169e1; /* Royal blue color */
-  }
-  
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* This ensures padding does not affect the overall width of elements */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* A light grey background color */
+  padding: 20px;
+}
+
+.contact-form-container {
+  max-width: 500px; /* Set a max-width for the form container */
+  margin: 30px auto; /* This centers the form in the middle of the page */
+  padding: 20px;
+  background-color: #fff; /* White background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* A subtle shadow to lift the form off the page */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.contact-form-container h2,
+.contact-form-container p {
+  text-align: center; /* Center align the header and paragraph */
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: calc(100% - 20px); /* Calculates width accounting for padding */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px; /* Adds space between the inputs */
+}
+
+.form-group textarea {
+  height: 150px; /* Set the height you prefer */
+  resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4A90E2;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #357ABD;
+}
